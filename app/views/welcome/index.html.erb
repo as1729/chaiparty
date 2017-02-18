@@ -2,3 +2,21 @@
 <p>
   The time is now: <%= Time.now %>
 </p>
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Text</th>
+  </tr>
+ 
+  <% @states.each do |state| %>
+    <tr>
+      <td><%= state.name %></td>
+      <td><%= state.abbreviation %></td>
+      <td><%= link_to 'Show', state_path(state) %></td>
+    </tr>
+  <% end %>
+  <tr>
+    <%= collection_select(:user, :state_id, State.all, :id, :abbreviation, prompt: true) %>
+  </tr>
+
+</table>
