@@ -1,22 +1,8 @@
-<h2>CHAI PARTY APP</h2>
+<h1>For The People</h1>
 <p>
-  The time is now: <%= Time.now %>
+  For The People aims to create transparency in the United States government by holding all elected officials in America accountable for representing the people they serve. 
 </p>
-<table>
-  <tr>
-    <th>Title</th>
-    <th>Text</th>
-  </tr>
- 
-  <% @states.each do |state| %>
-    <tr>
-      <td><%= state.name %></td>
-      <td><%= state.abbreviation %></td>
-      <td><%= link_to 'Show', state_path(state) %></td>
-    </tr>
-  <% end %>
-  <tr>
-    <%= collection_select(:user, :state_id, State.all, :id, :abbreviation, prompt: true) %>
-  </tr>
+<p>
+  <%= link_to "Sign Up", new_user_path %> now to receive a weekly update on what your Members of Congress in both House and Senate have accomplished over the past week. This will include each Member's Bills proposed and Voting positions.
+</p>
 
-</table>
