@@ -1,3 +1,12 @@
-<p>
-Coming soon: Ability to provide your contact info and sign-up for weekly emails.
-</p>
+
+<%= form_for @user do |u| %>
+First Name: <%= u.text_field :first_name %>
+
+Last Name: <%= u.text_field :last_name %>
+
+Email: <%= u.email_field :email %>
+
+Zip Code: <%= u.text_field :zip_code %>
+
+<%= u.submit "Sign-up" %>
+<% end %>

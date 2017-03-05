@@ -13,7 +13,7 @@ Rails.application.routes.draw do
   root 'welcome#index'
 
   get '/states/:id', to: 'states#show', as: 'state'
-  resources :users, only: [:new, :create]
+  resources :users, only: [:new, :create, :show]
   # Example resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
 
