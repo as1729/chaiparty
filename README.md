@@ -15,7 +15,7 @@ Convenient
 Timely
 
 ##Execution Status and Timeline
-​###March 12th 
+###March 12th
 The app will be functional for friends and family. Website design will still be barebones, but the weekly email with Member of Congress voting history from the previous week will be live.
 
 ###March 27th
