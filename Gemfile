@@ -32,6 +32,7 @@ gem 'rails_12factor', group: :production
 gem 'redis'
 gem 'sidekiq'
 gem 'puma'
+gem 'clockwork'
 # Use Unicorn as the app server
 # gem 'unicorn'
 
