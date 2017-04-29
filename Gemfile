@@ -33,6 +33,7 @@ gem 'redis'
 gem 'sidekiq'
 gem 'puma'
 gem 'clockwork'
+gem 'sendgrid-ruby'
 # Use Unicorn as the app server
 # gem 'unicorn'
 
