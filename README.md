@@ -15,13 +15,15 @@ Convenient
 Timely
 
 ## Execution Status and Timeline
-### March 12th
+### May 20th
 The app will be functional for friends and family. Website design will still be barebones, but the weekly email with Member of Congress voting history from the previous week will be live.
 
-### March 27th
+### June 20th
 Beta release - Logo/Website will be ready for users to sign-up and manage their profiles online. The focus at this stage will still be on making the email presentable and usable.
 
-### April 18th
+### July 4th - Stretch goal for launch. Would be great to have a good product ready for launch on this date.
+
+### July 22nd
 Official Launch.
 
 ## How can you contribute?
