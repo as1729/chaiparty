@@ -3,6 +3,6 @@ class WeeklyReport
   sidekiq_options queue: :low, retry: 1
 
   def perform
-    Reporter.weekly_report.deliver
+    Reporter.weekly_report.deliver_now
   end
 end
