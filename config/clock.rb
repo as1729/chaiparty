@@ -7,7 +7,7 @@ module Clockwork
   handler do |job|
     puts "Running #{job}"
   end
-  every(2.hours, "weekly.report") do
+  every(12.hours, "weekly.report") do
     WeeklyReport.perform_async
   end
 end
